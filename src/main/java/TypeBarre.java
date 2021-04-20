@@ -25,6 +25,16 @@ public class TypeBarre {
         this.tmax = tmax;
         this.cmax = cmax;
     }
+    
+     public TypeBarre(){
+        this.id = 0;
+        this.cout = 0;
+        this.lmin = 0;
+        this.lmax = 0;
+        this.tmax = 0;
+        this.cmax = 0;
+    }
+    
 
     /**
      * @return the id

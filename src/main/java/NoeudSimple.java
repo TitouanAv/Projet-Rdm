@@ -23,6 +23,12 @@ public class NoeudSimple extends Noeud {
         this.ord = ord;
         
     }
+    public NoeudSimple(){
+        super(0);
+        this.abs = 0;
+        this.ord = 0;
+        
+    }
 
     /**
      * @return the abs
